@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: #8B4513; /* Chocolate brown background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#recipe-title {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    font-style: italic;
+    margin: 0;
+}
+
+.recipe-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #8B4513; /* Chocolate brown border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.8em;
+    border-bottom: 2px solid #8B4513; /* Chocolate brown border */
+    padding-bottom: 5px;
+}
+
+ul, ol {
+    margin: 0 0 20px 20px;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #ff6347; /* Tomato color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff4500; /* Darker color on hover */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Class and ID Selectors */
+footer p {
+    font-size: 1em;
+    margin: 0;
+}
+
+footer a:hover {
+    color: #ff4500; /* Darker color on hover */
+}
+
+/* Combinator Selector */
+header + main {
+    margin-top: 20px;
+}
+
+/* Specific Styles for Ingredients and Steps */
+#ingredients-section ul {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.1em;
+}
+
+#steps-section ol {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+}
+
+/* Padding and Margin */
+.recipe-container h2,
+.recipe-container ul,
+.recipe-container ol {
+    margin-left: 20px;
+}
+
+/* Border and Background */
+.recipe-container {
+    background-color: #fff;
+}
+
+.recipe-container h2 {
+    border-bottom: 2px solid #8B4513;
+    padding-bottom: 5px;
+}
+
